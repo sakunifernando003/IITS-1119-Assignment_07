@@ -23,6 +23,19 @@
             margin-right: 30px; /* Adjust spacing as needed */
 
         }
+        .button-spacing3{
+            margin-left: 600px;
+
+        }
+
+        .button-spacing5{
+            margin-right: 300px;
+        }
+
+        /*.button-bar{*/
+        /*    margin-right: 20px;*/
+        /*}*/
+
 
 
 
@@ -87,33 +100,50 @@
     <table class="table table-striped-columns">
         <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col ">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">NIC</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">1001</th>
+            <td>Mark Otto</td>
+            <td>200487822345</td>
+            <td>Colombo</td>
+            <td>0712342231</td>
         </tr>
         <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th scope="row">1002</th>
+            <td>Jacob Thorton</td>
+            <td>200987899879</td>
+            <td>Panadura</td>
+            <td>0776454663</td>
         </tr>
         <tr>
-            <th scope="row">3</th>
-            <td>John</td>
-            <td>Doe</td>
-            <td>@social</td>
+            <th scope="row">1003</th>
+            <td>Ama Silva</td>
+            <td>200609200780</td>
+            <td>Colombo</td>
+            <td>0712345567</td>
+        </tr>
+        <tr>
+            <th scope="row">1004</th>
+            <td>Roshel Perera</td>
+            <td>200678990780</td>
+            <td>Colombo</td>
+            <td>071234334</td>
         </tr>
         </tbody>
     </table>
+
+    <div class="d-flex justify-content-around button-bar">
+        <button type="button" class="btn btn-success button-spacing3">Save</button>
+        <button type="button" class="btn btn-warning button-spacing4">Update</button>
+        <button type="button" class="btn btn-danger button-spacing5">Delete</button>
+    </div>
 </section>
 
 
